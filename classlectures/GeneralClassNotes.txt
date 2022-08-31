@@ -1,0 +1,64 @@
+https://cs61.seas.harvard.edu/site/2022/Datarep1/
+
+Course Notes:
+  - Class is recorded for DCE
+  - Course available for simultaneous enrollment
+    - Section is recommended if you're not simultaneously enrolled, but not required
+
+Class is about computation in practice
+  - what makes programs run fast or slow
+  - How do properties of machines impact the programs we write
+
+Recommended Textbook: Computer Systems: A Programmer’s Perspective, Third Edition by Randal E. Bryant and David R. O’Hallaron
+  - Recommended... available at coop or on the dark web
+
+Class Outline:
+ 1. Data Representation
+   - How do computers represent information?
+ 2. Assembly and machine programming
+   - What kind of language do computer processors understand?
+   - How is code translated for processors?
+ 3. Kernel programming
+   - Kernel is software on machine that has full privilege on all software
+   - How do hardware and software defend against bugs and attacks
+ 4. Storage and caching
+   - Caching is super useful
+ 5. Process Management
+ 6. Concurrency
+
+Our Work:
+  - Six problem Sets
+     - 
+  - Midterm and Final
+     - Take home three hour tests
+     - 24 hour window to take it 
+     - Tests are rather difficult
+  - Section
+     - Starting mid-next week
+     - Attendance is only mandatory in some cases... purpose is to iron down some material
+
+Friday lectures:
+  - For the most part, supplementary and optional
+  - Some supplementary lectures for people with less preparation, some for more advanced / fun topics
+  - This Friday, supplemental and meant for people who aren't as well prepared
+  - Next Friday, another supplemental
+  - Friday after that: required Lecture
+  - Friday after that: Build garbage collector in Class
+
+Your Grade (Roughly):
+  - > 50% assignments, < 35% tests, 15% participation
+     - Get participation points by asking questions in class, by attending section / office hours, or by attending the extra lectures
+  - It's pretty easily graded, but just doing psets alright is not an A
+     - Go above and beyond by doing extra credit, having really pretty coding style, or talk in class 
+
+Collaboration
+  - PSETs are individual and you have to turn in your own Work
+  - Work in group, consult with classmates, share code BUT don't copy
+  - They run plagiarism detection software
+  - Understand code well enough to replicate without Collaboration
+
+If you talk to other people / get help from people who aren't course staff / textbook, cite it on the homework
+
+C++ has ubiquitious availability, good tooling, ability to demonstrate impactful errors, and a good standard library of data structures
+
+There will be a bomb pset

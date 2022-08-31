@@ -1,0 +1,54 @@
+https://cs61.seas.harvard.edu/site/2022/Datarep1/
+
+Type: Defines a set of related values in a programming language
+
+Primitive Type: Irreducible (its values aren't composed of smaller values)
+   - Different programming languages have different primitive types 
+   - In C++, primitive types include integers, floating point numbers, and pointers
+      - An address is a "pointer type"... address is a numeric value of the pointer type
+
+Object: Value stored in memory
+   - Standard: "a region of data storage in the execution envionrment, the contents of which can represent values"
+   - Objects, unlike values, can change 
+      - When you create variable "x", x is an Object
+      - X is located in the memory
+
+Computer software in execution deals with zeroes and ones (bits)
+Byte: A group of 8 bits
+  - A byte is a kind of integer between 0 and 255
+     - You can only go up to 255 because 2^8 = 256 (number of possible patterns in binary)
+  - 0b00000000 is the byte 0
+     - You start with 0 so that nothing interprets it as a variable, but the b says it's in binary
+  - 0b00000001 is the byte 1
+
+Bytes are stored in memory
+  - Memory is made up of billions and billions of transistors—MOSFETs: Metal-oxide-semiconductor field-effect transistors
+  - One we have the memory, we refer to the specific bytes by refering to it / changing it
+  - Each byte of memory has an address, which is stored as another integer
+
+Get the address of an object with "&"
+  - Example: address of x is "&x"
+
+If you change the value stored in a variable, you don't change the address
+
+Programmer has complete control over memory
+
+1000 in hexadecimal is e8 03 00 00
+  - 1000 % 16 = 8
+  - 1000 / 16 = 62
+  - 62 % 16 = 14 = 0xe
+  - 62 / 16 = 3
+
+An integer is 4 bytes... you can store any number < 2^31 - 1
+
+Integers are stored in contiguous bytes 
+  - Efficiency --> faster to read addresses in memory when they are closer together
+
+Testing sorting:
+  - Test input and output have same length
+  - Check if in ascending order
+  - Check sum
+
+Insertion sort: n^2 complexity
+
+Performance mystery to ponder: it takes the insertion sort less time when using an array than when using a linked list

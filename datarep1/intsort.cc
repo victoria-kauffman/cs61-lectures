@@ -7,10 +7,13 @@
 int main() {
     std::list<int> ls;
 
-    // read integers from stdin, storing them in sorted order
+    // read integers from stdin, storing them in sorted order... use insertion sort
+
+    // this one uses a linked list to sort
     int val;
     while (fscanf(stdin, "%d", &val) == 1) {
-        auto it = ls.begin();
+        auto it = ls.begin(); // iterator represents position in list
+
         while (it != ls.end() && *it < val) {
             ++it;
         }
